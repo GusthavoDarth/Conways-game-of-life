@@ -4,7 +4,7 @@
 #include <time.h>
 #include "matrixInit.h"
 #include "state.h"
-#include "frame.h"
+#include "frame.h"	
 
 
 void main(){
@@ -20,9 +20,10 @@ void main(){
 	matrix1[23][24] = '#';
 	matrix1[24][24] = '#';
 	matrix1[25][24] = '#';
-	matrix1[24][23] = '#';
-	matrix1[25][25] = '#';
-	matrix1[size][size] = '\0';
+	matrix1[24][22] = '#';
+	matrix1[25][26] = '#';
+//	matrix1[size][size+size-1] = '\0';
+//
 
 
 //	blinker
@@ -130,17 +131,22 @@ void main(){
     		while (time(0) < retTime);               // Loop until it arrives.
 	}
 
+	printf("%d", neighbours(matrix1, 24, 24));
+//	printf("%c", matrix2[0][0]);
+//	nextState(matrix1, matrix2, size);
+//	printf("%c", matrix1[0,0]);
+//	frame(matrix1,size);
+//	system("cls");
+//	for(frames=0;frames<500;++frames){
+//		Sleep(1000);
+//		frame(matrix1, size);
+//		nextState(matrix1, matrix2, size);
+//		Sleep(1000);
+//		system("cls");	
+//		//printf("\e[1;1H\e[2J");
+//		frame(matrix2, size);
+//		Sleep(1000);
 
-
-	system("cls");
-	for(frames=0;frames<5000;++frames){
-		Sleep(1);
-		frame(matrix1, size);
-		nextState(matrix1, matrix2, size);
-		Sleep(1);
-		//system("cls");	
-		printf("\e[1;1H\e[2J");
-
-		copy(matrix1,matrix2, size);
-	}
+//		copy(matrix1,matrix2, size);
+//	}
 }
