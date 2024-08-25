@@ -3,6 +3,8 @@ Game of Life, from John Horton Conway.
 A terminal simulation in ASCII of the game, written in C.
 
 
+
+
 ## Some exemples of the simulation:
 ### Blinker
 ![](https://github.com/GusthavoDarth/Conways-game-of-life/blob/main/Exemples/Blinker.gif)
