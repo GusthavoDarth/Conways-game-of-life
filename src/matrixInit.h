@@ -17,9 +17,9 @@ char** matrixInit(int size){
 				matrix[i][j] = ' ';
 
 			}
-	//		printf("%c",matrix[i][j]);
+//			printf("%c",matrix[i][j]);
 		}
-	//	printf("\n");
+//		printf("\n");
 	}
 	return matrix;
 } 
