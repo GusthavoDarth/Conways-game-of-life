@@ -5,10 +5,10 @@ A terminal simulation in ASCII of the game, written in C.
 
 ## Some exemples of the simulation:
 ### Blinker
-![](https://github.com/Conways-game-of-life/blob/main/Exemples/Blinker.gif)
+![](https://github.com/GusthavoDarth/Conways-game-of-life/blob/main/Exemples/Blinker.gif)
 
 ### Toad
-![](https://github.com/Conways-game-of-life/blob/main/Exemples/Toad.gif)
+![](https://github.com/GusthavoDarth/Conways-game-of-life/blob/main/Exemples/Toad.gif)
 
 ### Pulsar
-![](https://github.com/Conways-game-of-life/blob/main/Exemples/Pulsar.gif)
+![](https://github.com/GusthavoDarth/Conways-game-of-life/blob/main/Exemples/Pulsar.gif)
