@@ -16,7 +16,7 @@ void main(){
 	char **matrix2 = matrixInit(size);
 
 //	pentomino
-//	50x50 grid
+//	200x200 grid
 	matrix1[98][98] = '#';
 	matrix1[99][98] = '#';
 	matrix1[100][98] = '#';
