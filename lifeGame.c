@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <time.h>
-#include "matrixInit.h"
-#include "state.h"
-#include "frame.h"	
+#include "src/matrixInit.h"
+#include "src/state.h"
+#include "src/frame.h"	
 
 
 void main(){
